@@ -1,0 +1,59 @@
+{
+  "listings": [
+    {
+      "id": 1,
+      "description": "toaster",
+      "image": "./images/toaster.jpg",
+      "location": "Brooklyn"
+    },
+    {
+      "id": 2,
+      "description": "BBQ grill",
+      "image": "./images/bbq-grill.jpg",
+      "location": "Williamsburg"
+    },
+    {
+      "id": 3,
+      "description": "iPhone Charger",
+      "image": "./images/iphone-charger.jpeg",
+      "location": "Downtown Brooklyn"
+    },
+    {
+      "id": 4,
+      "description": "Super Nintendo - with controller & games",
+      "image": "./images/super-nintendo.jpg",
+      "location": "Prospect Heights"
+    },
+    {
+      "id": 5,
+      "description": "2x3 wood",
+      "image": "./images/2by3.jpg",
+      "location": "Greenpoint"
+    },
+    {
+      "id": 6,
+      "description": "Beautiful solo couch",
+      "image": "./images/couch.jpg",
+      "location": "Bay Ridge"
+    },
+    {
+      "id": 7,
+      "description": "Dumbbell Set",
+      "image": "./images/dumbbells.jpg",
+      "location": "West Side"
+    },
+    {
+      "id": 8,
+      "description": "3x3 Rubik's Cube",
+      "image": "./images/rubiks_cube.jpg",
+      "location": "South Side"
+    },
+    {
+      "id": 9,
+      "description": "White Skateboard sneakers",
+      "image": "./images/skate_shoes.jpg",
+      "location": "Broadway"
+    }
+    
+  ]
+}
