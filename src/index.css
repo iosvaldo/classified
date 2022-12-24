@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: sans-serif;
+  font-family: "Open Sans",sans-serif;
   font-size: 14px;
 }
 
@@ -20,13 +20,30 @@ header {
 
 header h1 {
   line-height: 1;
-  font-family: serif;
+  font-family: "Open Sans";
 }
 
 .logo {
   margin-right: 0.5rem;
   color: transparent;
   text-shadow: 0 0 0 purple;
+}
+
+.news__icon{
+  margin-right:10px;
+  color: #000;
+}
+
+.title__container{
+  display:flex;
+  color: #00E;
+  align-items: center;
+  font-family: "Open Sans",sans-serif;
+  /* font-weight:normal; */
+}
+
+.star {
+  font-size: 20px;
 }
 
 .searchbar {
@@ -86,6 +103,13 @@ main {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
+  margin-top: 20px;
+  justify-content: center;
+ 
+}
+.card:hover {
+ transform: scale(1.1);
+box-shadow: -6px -2px 44px 4px rgba(0,0,0,0.31);
 }
 
 .card {
@@ -130,3 +154,4 @@ main {
   font-family: serif;
   font-size: 1rem;
 }
+

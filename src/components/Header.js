@@ -1,7 +1,7 @@
 import React from "react";
 import Search from "./Search";
 import { BsNewspaper } from 'react-icons/bs';
-import "../components/Header.css";
+import '../index.css';
 
 function Header({setQuery}) {
   return (

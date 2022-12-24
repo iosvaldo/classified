@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "../index.css";
 
 function ListingCard({ listing, deleteListing }) {
   const { id, image, description, location } = listing;
@@ -23,13 +24,19 @@ function ListingCard({ listing, deleteListing }) {
       </div>
       <div className="details">
         {favorite ? (
-          <button onClick={handleClick} className="emoji__btn favorite active">★</button>
+          <button onClick={handleClick} className="emoji__btn favorite active">
+            <span className="star">★</span>
+          </button>
         ) : (
-          <button onClick={handleClick} className="emoji__btn favorite">☆</button>
+          <button onClick={handleClick} className="emoji__btn favorite">
+            <span className="star">☆</span>
+          </button>
         )}
         <strong>{description}</strong>
         <span> · {location}</span>
-        <button onClick={handleDelete} className="emoji__btn delete">🗑</button>
+        <button onClick={handleDelete} className="emoji__btn delete">
+          🗑
+        </button>
       </div>
     </li>
   );

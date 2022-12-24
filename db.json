@@ -1,24 +1,6 @@
 {
   "listings": [
     {
-      "id": 1,
-      "description": "toaster",
-      "image": "./images/toaster.jpg",
-      "location": "Brooklyn"
-    },
-    {
-      "id": 2,
-      "description": "BBQ grill",
-      "image": "./images/bbq-grill.jpg",
-      "location": "Williamsburg"
-    },
-    {
-      "id": 3,
-      "description": "iPhone Charger",
-      "image": "./images/iphone-charger.jpeg",
-      "location": "Downtown Brooklyn"
-    },
-    {
       "id": 4,
       "description": "Super Nintendo - with controller & games",
       "image": "./images/super-nintendo.jpg",
@@ -54,6 +36,5 @@
       "image": "./images/skate_shoes.jpg",
       "location": "Broadway"
     }
-    
   ]
 }
